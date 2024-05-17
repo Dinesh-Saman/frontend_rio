@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.profile-options {
+  position: absolute;
+  top: 4.5rem;
+  right: 2.5rem;
+  width: 120px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #002B5B;
+  z-index: 2;
+}
+
+.profile-options::before {
+  content: "";
+  position: absolute;
+  top: -0.7rem;
+  right: 1.1rem;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: #002B5B;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.profile-options ul {
+  list-style: none;
+  cursor: pointer;
+  padding-left: 0;
+}
+
+.profile-options ul li {
+  transition: all 300ms ease-in-out;
+  margin-bottom: 3px;
+  font-weight: 600;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+.profile-options ul li:hover {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  transition: all 300ms ease-in-out;
+}
+
+.router-link {
+  text-decoration: none;
+  color: inherit;
+}

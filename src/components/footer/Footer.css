@@ -1,0 +1,73 @@
+/* Footer */
+.footer {
+  background-color: #383741;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #eee; /* Slightly lighter shade of white */
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #eee; /* Slightly lighter shade of white */
+}
+
+/* Remove underline from links within list items */
+.list-unstyled li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hover effect for links within list items */
+.list-unstyled li a:hover {
+  color: #eee; /* Slightly lighter shade of white */
+}
+
+.text-uppercase {
+  margin-bottom: 40px;
+}
+
+
+
+

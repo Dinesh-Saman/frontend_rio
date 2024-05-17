@@ -1,0 +1,25 @@
+.login-form {
+  width: 60vw;
+  margin: 2rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* A subtle box shadow */
+  background-color: rgb(255, 255, 255);
+}
+
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #aca5a5;
+}
+@media screen and (max-width: 600px) {
+  .login-form{
+    width: 70vw;
+  }
+}
+
+.right-image {
+  width: 55%;
+  margin-bottom: 10px;
+}

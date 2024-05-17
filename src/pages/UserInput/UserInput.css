@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* Rest of your CSS styles remain the same */
+
+.textarea-container {
+    display: flex;
+    margin-left: 60px;
+    width: 1270px;
+  }
+  
+  .textarea-container textarea {
+    flex: 1;
+    height: 400px;
+  }
+  
+
+  .textarea-container textarea:focus {
+    border-color: #007bff;
+    outline: none; /* Remove default outline */
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+.custom-button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+}
+
+/* Custom styles for the success button */
+.btn-success.custom-button {
+    background-color: #28a745; 
+    color: #fff; 
+    border-style: none;
+    border-radius: 25px;
+    height: 50px;
+    margin-left: 45px;
+}
+
+/* Custom styles for the danger button */
+.btn-danger.custom-button {
+    background-color: #dc3545;
+    color: #fff; 
+    border-radius: 25px;
+    margin-right: 500px;
+}
+
+.btn-secondary.custom-button {
+  color: #fff; 
+  border-radius: 25px;
+}
+
+.circle-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.circle-container .inactive-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #999;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.circle-container .active-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: blue; 
+  border-radius: 50%;
+}

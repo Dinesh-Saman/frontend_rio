@@ -1,0 +1,22 @@
+.main_container{
+    padding: 20px 0;
+}
+.box-container{
+    width: 70vw;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.options{
+    width: 50%;
+}
+.diagram-container{
+    max-width: 40rem;
+    max-height: 60rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.diagram-container img{
+    max-width: 45vw;
+    max-height: 120vh;
+}

@@ -1,0 +1,61 @@
+.main_container{
+  background-color: #ffffff;
+}
+.download-container {
+  margin-left: 100px;
+  width: '500px';
+  height: 'auto';
+}
+
+.diagram-container{
+
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+  background-color: yellow;
+  transform: none !important;
+}
+
+.custom-btn {
+  /* Add your custom styles here */
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.custom-btn:hover {
+  /* Add styles for hover state */
+  opacity: 0.8;
+}
+
+.btn-success {
+  /* Add styles specific to the success button */
+  background-color: green;
+  color: white;
+  border-radius: 25px;
+  width: 150px;
+}
+
+.btn-danger {
+  /* Add styles specific to the danger button */
+  background-color: rgb(192, 23, 23);
+  color: white;
+  border-radius: 25px;
+  margin-right: 280px;
+}
+
+.btn-secondary {
+  /* Add styles specific to the danger button */
+
+  color: white;
+  border-radius: 25px;
+  margin-left: 280px;
+}
+
+
+
+
+
+

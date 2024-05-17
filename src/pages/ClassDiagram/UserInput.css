@@ -1,0 +1,11 @@
+.textarea-container {
+    display: flex;
+    margin-left: 60px;
+    width: 1270px;
+  }
+  
+  .textarea-container textarea {
+    flex: 1;
+    height: 400px;
+  }
+  
