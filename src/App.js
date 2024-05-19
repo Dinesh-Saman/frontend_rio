@@ -13,6 +13,7 @@ import DiagramMarkdownContext from "./context/DiagramMarkdownContext";
 import DiagramDictionaryContext from "./context/DiagramDictionaryContext";
 import Footer from "./components/footer/Footer.js";
 import Navbar from "./components/nav/navbar/Navbar.js";
+import UploadDiagram from "./pages/UploadDiagram/UploadDiagram.js";
 
 function App() {
     const [responseData, setResponseData] = useState(null);
@@ -30,6 +31,7 @@ function App() {
                                 <Route path="/userRequirment" element={<UserInput />} />
                                 <Route path="/userStory" element={<UserStory />} />
                                 <Route path="/classDiagram" element={<ClassDiagram />} />
+                                <Route path="/uploadDiagram" element={<UploadDiagram />} />
                                 <Route path="/download" element={<Download />} />
                                 <Route path="/edit" element={<Edit />} />
                             </Routes>

@@ -143,7 +143,7 @@ const Home = () => {
         </div>
         {/* Card 4 */}
         <div className="card">
-        <Link to="./userRequirment" style={{textDecoration:'none'}}>
+        <Link to="./uploadDiagram" style={{textDecoration:'none'}}>
           <img src={Image3} alt="Card 4" />
           <h3>RIO Code Generator</h3>
           <p>Generate code snippets quickly and efficiently using RIO Code Generator.</p>
